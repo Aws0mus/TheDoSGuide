@@ -119,3 +119,5 @@ Unintentional DDoS attack
 This generally happens when a link to a small site is added to a very popular website. It is quite obvious that the website traffic increases significantly resulting in an unintentional overload to the host. Some smaller websites generally can only handle a very limited traffic, but temporary boost in traffic could crash the server causing unintentional DDoS from legitimate traffic.
 
 https://www.iplocation.net/denial-of-service
+
+Spam puede considerarse un ataque???
