@@ -9,9 +9,9 @@ El paquete ping forma parte del protocolo ICMP (Internet Control Message Protoco
 
 Este ataque apareció en las primeras implementaciones de TCP/IP, en 1996. Por aquel entonces muchos sistemas operativos eran vulnerables al ataque, como Windows 95 o Linux 2.x. Además, afectaba a routers, impresoras y otros elementos de la red.
 
-El ataque se parcheó rápidamente para la mayoría de sistemas vulnerables o se implementaron soluciones parciales como el bloqueo de paquetes ICMP a través del cortafuegos. Pese a ello, fue el punto de partida de diferentes ataques de inhundación basados en el protocolo ICMP, como el *ping flood*.
+El ataque se parcheó rápidamente para la mayoría de sistemas vulnerables o se implementaron soluciones parciales como el bloqueo de paquetes ICMP a través del cortafuegos. Pese a ello, fue el punto de partida de diferentes ataques de inundación basados en el protocolo ICMP, como el *ping flood*.
 
-Cabe destacar que este ataque es un ataque al protocolo y no de saturación o inhundación de la red. La implementación del protocolo era errónea, con una vulnerabilidad de desbordamiento de buffer, y debido a ello provocaba la denegación de servicio.
+Cabe destacar que este ataque es un ataque al protocolo y no de saturación o inundación de la red. La implementación del protocolo era errónea, con una vulnerabilidad de desbordamiento de buffer, y debido a ello provocaba la denegación de servicio.
 
 En 2013 apareció una nueva versión basada en IPv6 que afectaba a sistemas desde Windows Vista hasta Windows 8 y Windows Server 2012. Fue parcheada ese mismo año.
 

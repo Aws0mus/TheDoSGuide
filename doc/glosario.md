@@ -42,6 +42,10 @@ Definiciones al inicio del TFG
 
 -	CVE?
 
+-	CERT y CERT/CC
+
+-	Script kiddie
+
 -	Proxy
 
 	-	Tor (Usarlo para anonimizar)
