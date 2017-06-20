@@ -120,4 +120,4 @@ This generally happens when a link to a small site is added to a very popular we
 
 https://www.iplocation.net/denial-of-service
 
-Spam puede considerarse un ataque???
+Al fin y al cabo, cualquier ataque que sea capaz de consumir los recursos de una máquina, CPU, disco, red... puede ser considerado un ataque de denegación de servicio. https://www.cert.org/information-for/denial_of_service.cfm

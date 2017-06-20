@@ -1,14 +1,14 @@
 TCP SYN FLOOD
 =============
 
-El ataque TCP SYN flood o inundación TCP SYN (usualmente llamado SYN flood) es un ataque de denegación de servicio distribuido que explota el funcionamiento básico del protocolo TCP para consumir los recursos en el servidor objetivo y dejarlo inutilizado.
+El ataque TCP SYN flood o inundación TCP SYN (usualmente llamado SYN-flood) es un ataque de denegación de servicio distribuido que explota el funcionamiento básico del protocolo TCP para consumir los recursos en el servidor objetivo y dejarlo inutilizado.
 
 El atacante envía peticiones de conexión TCP al objetivo a una velocidad superior a la que el servidor es capaz de procesarlas, causando una saturación en la red.
 
 Este ataque ha sido utilizado **TODO** LOIC
 
-Descripción general del ataque
-------------------------------
+Descripción del ataque
+----------------------
 
 Para establecer una sesión TCP es necesaria una negociación en 3 pasos (3-way handshake). El funcionamiento básico de este intercambio en 3 pasos es el siguiente:
 
@@ -29,13 +29,13 @@ Antes de que la conexión del servidor expire el cliente malicioso enviará otro
 
 El resultado final será que las tablas de conexiones del servidor se llenarán, denegando el servicio a los clientes legítimos y provocando que el servidor se ralentice o se detenga.
 
-##Descripción técnica
-
 **TODO**
 
-##Características principales
+Características principales
+---------------------------
 
-##Mitigación
+Mitigación
+----------
 
 **TODO**
 
@@ -61,7 +61,7 @@ Hay más soluciones
 
 Son soluciones caras
 
-\`\`\` Micro blocks—administrators can allocate a micro-record (as few as 16 bytes) in the server memory for each incoming SYN request instead of a complete connection object.
+Micro blocks—administrators can allocate a micro-record (as few as 16 bytes) in the server memory for each incoming SYN request instead of a complete connection object.
 
 SYN cookies—using cryptographic hashing, the server sends its SYN-ACK response with a sequence number (seqno) that is constructed from the client IP address, port number, and possibly other unique identifying information. When the client responds, this hash is included in the ACK packet. The server verifies the ACK, and only then allocates memory for the connection.
 
@@ -69,9 +69,10 @@ RST cookies—for the first request from a given client, the server intentionall
 
 Stack tweaking—administrators can tweak TCP stacks to mitigate the effect of SYN floods. This can either involve reducing the timeout until a stack frees memory allocated to a connection, or selectively dropping incoming connections.
 
-Obviously, all of the above mentioned methods rely on the target network's ability to handle large-scale volumetric DDoS attacks, with traffic volumes measured in tens of Gigabits (and even hundreds of Gigabits) per second.\`\`
+Obviously, all of the above mentioned methods rely on the target network's ability to handle large-scale volumetric DDoS attacks, with traffic volumes measured in tens of Gigabits (and even hundreds of Gigabits) per second.
 
-##Referencias
+Referencias
+-----------
 
 -	**Descripción**  
 	https://www.incapsula.com/ddos/attack-glossary/syn-flood.html

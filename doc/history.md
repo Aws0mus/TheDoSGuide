@@ -21,7 +21,7 @@ El primer ataque de denegación de servicio distribuido reportado, a gran escala
 
 Por aquella época no eran muy conocidos estos ataques y no tenían mucha difusión. Aquellos que aparecían lo hacían en revistas *underground*. Tampoco había gran variedad de herramientas disponibles y la mayoría eran muy simples o solo pruebas de concepto.
 
-Los primeros escenarios de prueba fueron los canales IRC (Internet Relay Chat). Estos canales de comunicación eran entornos controlados que permitián a los atacantes registrarse anónimamente y enviar mensajes de forma centralizada a las máquinas zombie de las botnets. Por esta razón muchas organizaciones y universidades dejaron de dar soporte a las redes IRC. (Garber 2000)
+Los primeros escenarios de prueba fueron los canales IRC (Internet Relay Chat). Estos canales de comunicación eran entornos controlados que permitián a los atacantes registrarse anónimamente y enviar mensajes de forma centralizada a las máquinas zombie de las botnets. Por esta razón muchas organizaciones y universidades dejaron de dar soporte a las redes IRC. (Goel, Baykal & Pon 2006)
 
 ![Esquema de una botnet utilizando un canal IRC](../static/images/irc_botnets.png)
 
@@ -116,6 +116,8 @@ Referencias
 -----------
 
 Lee Garber, Denial-of-Service Attacks Rip the Internet, Journal Computer, Vol 33, Issue 4, April 2000, pp 12-17, doi:10.1109/MC.2000.839316
+
+Goel, S., Baykal, A., & Pon, D. 2006, 'Botnets: the anatomy of a case', Journal of Information Systems Security. http://www.albany.edu/~goel/publications/botnetbookchapter.pdf
 
 Gary Genosko,The Case of ‘Mafiaboy’ and the Rhetorical Limits of Hacktivism, Fibreculture Journal, Issue 9, 2006 http://nine.fibreculturejournal.org/fcj-057/
 
