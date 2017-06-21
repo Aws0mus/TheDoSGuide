@@ -1,9 +1,9 @@
 DNS amplification
 =================
 
-DNS amplification is a Distributed Denial of Service (DDoS) attack in which the attacker exploits vulnerabilities in domain name system (DNS) servers to turn initially small queries into much larger payloads, which are used to bring down the victim’s servers.
+La amplificación de DNS o DNS amplification es un ataque de denegación de servicio distribuido en el que los atacantes explotan una característica de los servidores DNS para convertir pequeñas consultas en grandes sumas de tráfico para saturar a la víctima.
 
-DNS amplification is a type of reflection attack which manipulates publically-accessible domain name systems, making them flood a target with large quantities of UDP packets. Using various amplification techniques, perpetrators can “inflate” the size of these UDP packets, making the attack so potent as to bring down even the most robust Internet infrastructure.
+Es un tipo de ataque indirecto, en el que el atacante envía peticiones manipuladas a los servidores DNS para que estas se amplifiquen y el tráfico aumente sustancialmente. Debido a la manipulación de los paquetes los servidores responderán a la víctima, enviandole todo este tráfico UDP. Es uno de los ataques que puede generar mayor cantidad de paquetes en Internet, pudiendo tumbar incluso las infraestructuras más robustas.
 
 Descripción del Ataque
 ----------------------

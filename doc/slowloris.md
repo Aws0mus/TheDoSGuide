@@ -3,15 +3,11 @@ Slow Loris
 
 El ataque Slowloris, desarrollado por Robert “RSnake” Hansen, permite a una sola máquina realizar un ataque de denegación de servicio sobre un servidor web.
 
-Coge su nombre del Loris Perezoso (Slow Loris en inglés), debido a que puede funcionar de forma lenta y continua.
+Coge su nombre del Loris Perezoso (Slow Loris en inglés), debido a que puede funcionar de forma lenta y continua. El ataque se basa en agotar y acaparar los hilos del pool de conexiones de un servidor para que los clientes legítimos no puedan conectarse a el.
 
 ![Imagen del Slow loris](../static/images/slowloris.jpeg)
 
-Durante las protestas por las elecciones presidenciales de Irán, en 2009, Anonymous utilizó este ataque de denegación de servicio contra diversos sitios que pertenecían al gobierno iraní. Se eligió este ataque, sobre otros basados en saturar la red, debido a que estos segundos podían afectar tanto a las webs del gobierno como a las webs de los manifestantes. Al elegir este ataque el impacto fue más focalizado e implicaba un menor consumo de ancho de banda.
-
-![Ataques de 2009 por Anonymous](../static/images/anonymous_iran.png)
-
-(https://web.archive.org/web/20090629152805/http://iran.whyweprotest.net/general-discussion/2156-list-anti-protester-sites-2.html) (https://web.archive.org/web/20090811013813/http://iran.whyweprotest.net/help-iran-online/6194-condensed-list-sites-w-pictures-part-1-a.html\)
+*Imagen del Slow loris*
 
 Descripción del ataque
 ----------------------

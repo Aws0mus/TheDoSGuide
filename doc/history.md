@@ -1,7 +1,7 @@
 Historia de los ataques DoS
 ===========================
 
-Durante los últimos años hemos sido testigos de un gran número de ataques de denegación de servicio organizados. La mayor parte de estos ataques proviene de organizaciones hacktivistas, organizaciones criminales o incluso gobiernos.
+Durante los últimos años hemos sido testigos de un gran número de ataques de denegación de servicio organizados. La mayor parte de estos ataques proviene de hacktivistas, organizaciones criminales o incluso gobiernos.
 
 Estos ataques se han hecho cada vez más profesionales y más efectivos. Desde 1999 que se tiene constancia del primer ataque de denegación de servicio distribuido, contra la universidad de Minnesota, utilizando una botnet formada por 227 máquinas (Garber 2000); hasta hoy en día, con ataques como el de la botnet Mirai, al servidor DNS Dyn, formada por casi 50.000 máquinas. (https://www.jijijaja.com/blog/malware-analysis-mirai-ddos-botnet.html\)
 
@@ -42,36 +42,62 @@ El ataque generó picos de tráfico de 1 gigabit por segundo, superior a lo que 
 
 *Comparativa del tráfico durante el ataque y tras el ataque*
 
+En 2005 y 2006 aparecen los primeros ataques DDoS que utilizan amplificación de DNS, aunque ya en 2002 se teorizó con este tipo de ataques, que permitían aumentar el tráfico enviado por un atacante de forma significativa utilizando la resolución de nombres de los servidores DNS. Se considera que estos ataques fueron simplemente pruebas para ver si funcionaban correctamente los ataques. (Vaughn & Evron 2006)
+
+Los autores documentan que estos ataques generaros picos de tráfico de hasta 10Gbps utilizando 140.000 servidores DNS. Las peticiones DNS consistían en paquetes UDP con un tamaño de 60 bytes que podían generar respuestas de hasta 4000 bytes, lo que significa un factor de amplificación de 60.
+
+![Funcionamiento de la amplificación de DNS](../static/images/dns_amp1.jpeg)
+
+*Funcionamiento de la amplificación de DNS*
+
+**TODO** loic aparece
+
 En esta fase las técnicas siguen siendo básicas, pero se comienza a investigar y las herramientas empiezan a ser más avanzadas. Tanto que incluso un chico de 15 años pudo realizar un ataque a gran escala sin conocimientos de avanzados de informática. Sobretodo quedo en evidencia que muchas empresas y organizaciones no estaban preparadas ante el nuevo tipo de ataques de denegación de servicio.
-
-**TODO**
-
-En 2004 se publica la primera versión de LOIC una herramienta para hacer DDoS de manera colaborativa. Esta herramienta y algunas de sus variantes han sido utilizadas habitualmente por grupos hacktivistas.
-
-En 2005 se produce el primer ataque DDoS realizado mediante reflexión de DNS.
-
-En 2006 se publican varias herramientas para realizar ataques mediante reflexión de DNS y NTP.
 
 Inicios del cibercrimen (2007 - 2012)
 -------------------------------------
 
-Los cibercriminales descubren la facilidad de realizar ataques DDoS y empiezan a monetizar de forma masiva los mismos mediante la extorsión. Los grupos hacktivistas también empiezan a utilizar de forma habitual los ataques DDoS de manera organizada.
+En esta etapa los cibercriminales descubren lo fácil, barato y efectivo que es ejecutar ataques de denegación de servicio, comenzando a monetizar de forma los mismos a través de la extorsión o utilizándolos para fines políticos o activistas.
 
-Demostrado el gran impacto de esta amenaza, todo el mundo quiere subirse al carro. Por parte de los atacantes, se crean muchos grupos de aficionados y profesionales que quieren sacar partido de este ataque de moda. También aparecen multitud de vendedores de productos y servicios para intentar solventar el problema. Las técnicas empiezan a mejorarse, pero siguen siendo relativamente básicas. Se produce un aumento en el número y la complejidad de las herramientas disponibles.
+En abril de 2007 se producen una serie de ataques DDoS coordinados contra Estonia, inundando los sitios web de las principales organizaciones y organismos, como el parlamento de Estonia, bancos, ministerios, periódicos y empresas de telecomunicaciones.
 
-https://en.wikipedia.org/wiki/2007_cyberattacks_on_Estonia
+Se cree que el ataque fue parte de un conflicto político entre Estonia y Rusia, tras la ruptura de la unión soviética, debido a una propuesta en Estonia para recolocar una estatua de la segunda guerra mundial soviética ubicada en la ciudad de Tallín. Para las autoridades rusas la estatua simbolizaba la liberación de Tallín del nacismo por la URSS, para el gobierno local significaba la ocupación y opresión soviéticas durante medio siglo. La mayor parte del tráfico provenía de fuera del país y en los mensajes había claras indicaciones con motivación política, como insultos de fascista al primer ministro estono. (Ottis 2007)
 
-En abril de 2007 se producen una serie de ataques de DoS coordinados contra Estonia, inundado los sitios web de las principales empresas y organismos. Los ataques fueron realizados mediante Ping floods, Smurf y otros ataques volumétricos. Este fue uno de los primeros ataques masivos atribuidos a una organización criminal promovida por un gobierno.
+![Instrucciones en ruso del ataque de 2007 a Estonia el 9 de Mayo](../static/images/estonia_instructions.png)
+
+*Instrucciones en ruso del ataque de 2007 a Estonia el 9 de Mayo*
+
+El ataque tuvo lugar del 27 de abril al 18 de mayo y se utilizaron diferentes técnicas de denegación de servicio durante esos 22 días. Se utilizaron diversos métodos ya conocidos, como la inundación UDP, inundación ICMP, peticiones HTTP malformadas, spam de correo, etc. Los objetivos principales fueron servidores DNS, servidores de correo y servidores web.
+
+Se le considera uno de los primeros ataques de ciberguerra ocurridos en el mundo, aunque no se le atribuyó la culpa a Rusia al final, sino a un ciudadano ruso viviendo en Estonia. Tras los ataques se comenzó el desarrollo de una política de ciberdefensa en el país y se creó el centro de de excelencia para la ciberseguridad de la OTAN en el 2008.
+
+**TODO**
 
 -	Pushdo botnet / Pandex Botnet 2007 (botnets) https://security.radware.com/ddos-knowledge-center/ddospedia/pushdo-botnet/ https://security.radware.com/ddos-knowledge-center/ddospedia/pandex-botnet/
 
-En 2009 se publica el código original del ataque Slowloris, ataque que demostró la posibilidad de provocar un gran impacto a nivel de aplicación incluso con un bajo flujo de conexiones.
+En el año 2009 se publica el código original del ataque Slowloris, que provocaba una denegación de servicio a nivel de aplicación muy dirigida a páginas web utilizando un tráfico mínimo.
 
--	Iran ataques ver slowloris
+Durante las protestas por las elecciones presidenciales de Irán, en 2009, Anonymous utilizó este ataque de denegación de servicio contra diversos sitios que pertenecían al gobierno iraní. Se eligió este ataque, sobre otros basados en saturar la red hacía la herramienta LOIC, debido a que estos segundos podían afectar tanto a las webs del gobierno como a las webs de los manifestantes. Al elegir este ataque el impacto fue más focalizado e implicaba un menor consumo de ancho de banda.
+
+![Ataques de 2009 por Anonymous](../static/images/anonymous_iran.png)
+
+*Ataques de 2009 por Anonymous Iran* (Anonymous Iran 2007)
+
+**TODO**
 
 -	Operation Payback 2010 (anon) https://security.radware.com/ddos-knowledge-center/ddospedia/operation-payback/
 
--	Stuxnet (No DoS pero para concienciar sobre ataque en sistemas críticos, utilizar la doc del curso de Incibe también) 2010 (gobierno?) https://security.radware.com/ddos-knowledge-center/ddospedia/stuxnet/
+En esta época el precio de las botnets esta tirado http://www.zdnet.com/article/study-finds-the-average-price-for-renting-a-botnet/
+
+También en 2010 ocurrió un ataque de denegación de servicio disruptivo con consecuencias severas para el programa nuclear de Irán. Se identificó un gusano llamado Stuxnet que tenía como principal objetivo los controladores lógicos programables (PLCs), que forman parte principalmente de los sistemas industriales. Este gusano se expandió principalmete en Irán, llegando a ser un 60% de las máquinas infectadas de este país. Se cree que el gusano fue desarrollado por el gobierno de Estados Unidos y el de Israel. (Sangerjune 2012)
+
+El ataque estaba diseñado para cambiar la velocidad de rotación del motor, primero acelerándola y luego decelerándola, para así generar vibraciones excesivas que destruyeran las centrifugadoras de la planta nuclear. Llegaron a destruirse más de 1000 centrifugadoras, con ello se consiguió retrasar muchos años el programa nuclear de Irán. (Mueller & Yadegari 2012)
+
+![Visión general de Stuxnet](../static/images/stuxnet_overview.png)
+
+*Visión general de Stuxnet*
+
+**TODO**
 
 -	Operation blackout 2012 (anon) https://security.radware.com/ddos-knowledge-center/ddospedia/operation-blackout/
 
@@ -90,7 +116,11 @@ Fase madurez y actualidad (2013 - 2017)
 
 Durante estos años, los cibercriminales ya tienen acceso a una gran variedad de métodos para realizar ataques de denegación de servicio distribuidos. Algunos grupos se han ido especializando, quedan menos grupos, pero son más profesionales.
 
+**TODO**
+
 A principios de 2013 se produce un ataque masivo contra Spamhaus que llega a picos de 85Gbps, generados mayoritariamente mediante amplificación de DNS.
+
+https://arstechnica.com/information-technology/2013/03/how-spamhaus-attackers-turned-dns-into-a-weapon-of-mass-destruction/
 
 También en 2013 se produce la caída de varios sitios web públicos de la OTAN, debido a un ataque DDoS realizado de forma organizada como resultado de las tensiones sobre Crimea. También atribuido a organizaciones criminales afines al gobierno ruso.
 
@@ -119,4 +149,23 @@ Goel, S., Baykal, A., & Pon, D. 2006, 'Botnets: the anatomy of a case', Journal 
 
 Gary Genosko,The Case of ‘Mafiaboy’ and the Rhetorical Limits of Hacktivism, Fibreculture Journal, Issue 9, 2006 http://nine.fibreculturejournal.org/fcj-057/
 
-http://www.areopago21.org/2016/04/que-ha-pasado-con-los-ddos-repaso.html
+Randal Vaughn, Gadi Evron, DNS Amplification Attacks, 2006 https://web.archive.org/web/20070217224115/http://www.isotf.org/news/DNS-Amplification-Attacks.pdf
+
+Molly Sauter, 'LOIC Will Tear Us Apart' : The Impact of Tool Design and Media Portrayals in the Success of Activist DDOS Attacks, American Behavioral Scientist, 2013, doi:10.1177/0002764213479370 http://civicmediaclass.mit.edu/wp-content/uploads/sites/11/2015/05/Sauter-LOICWillTearUsApart_abs.pdf
+
+Rain Ottis, Analysis of the 2007 Cyber Attacks Against Estonia from the Information Warfare Perspective, 2007 https://www.etis.ee/File/DownloadPublic/b924739a-01f6-4867-8e86-1d4527c22e31?name=Fail_2008_ECIW_Ottis.pdf&type=application%2Fpdf
+
+https://en.wikipedia.org/wiki/2007_cyberattacks_on_Estonia
+
+Anonymous Iran, Main Thread, 2007 https://web.archive.org/web/20090629152805/http://iran.whyweprotest.net/general-discussion/2156-list-anti-protester-sites-2.html
+
+Anonymous Iran, Targets, 2007 https://web.archive.org/web/20090811013813/http://iran.whyweprotest.net/help-iran-online/6194-condensed-list-sites-w-pictures-part-1-a.html
+
+David E. Sangerjune, Obama Order Sped Up Wave of Cyberattacks Against Iran, 2012  
+http://www.nytimes.com/2012/06/01/world/middleeast/obama-ordered-wave-of-cyberattacks-against-iran.html
+
+Paul Mueller and Babak Yadegari, The Stuxnet Worm, 2012 https://www2.cs.arizona.edu/~collberg/Teaching/466-566/2012/Resources/presentations/2012/topic9-final/report.pdf
+
+https://security.radware.com/ddos-knowledge-center/ddospedia/stuxnet/
+
+https://en.wikipedia.org/wiki/Stuxnet

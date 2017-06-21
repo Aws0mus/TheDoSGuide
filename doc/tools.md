@@ -1,5 +1,9 @@
 #Herramientas
 
+-	FloodNet
+
+https://oddletters.com/2012/07/15/hope9-talk-activist-ddos-when-similes-and-metaphors-fail/ https://www.thing.net/~rdom/ecd/ZapTact.html
+
 -	ByteDos
 
 ByteDos is a windows desktop DoS application. It is a simple, standalone executable file which does not require any special installation on the attacker's PC.
@@ -25,6 +29,8 @@ While LOIC is simple and effective, it does not make any attempt to spoof its us
 Several countries including the United States have taken legal actions against Low Orbit Ion Cannon attackers based on the IP information. On January 27, 2011, five people were arrested in the UK in connection with the Operation Payback attacks, while in June 2011 another three LOIC users were arrested in Spain for their involvement in other attacks. On June 14 2011, Turkish police arrested 32 individuals who allegedly attacked government websites in protest against the introduction of state level web filtering; these individuals are thought to be members of Anonymous that used the LOIC tool as a means of protest. As a result of various arrests, LOIC's popularity began to decline towards the end of 2011.
 
 https://security.radware.com/ddos-knowledge-center/ddospedia/loic-low-orbit-ion-cannon/
+
+https://github.com/NewEraCracker/LOIC/
 
 -	HOIC (High Orbit Ion Cannon)
 
@@ -121,7 +127,7 @@ Though difficult to track, Radware is able to nullify a Tor's Hammer based attac
 
 https://security.radware.com/ddos-knowledge-center/ddospedia/tors-hammer/
 
-Trin00
+Trin00 o Tribe Flood Network?
 
 Trinoo is a botted network which has been attributed to numerous DDoS-type attacks. Although it's been around for a while and illustrated via a CERT advisory 99-04, the nature of the compromised network appears to have changed over the years. The Trinoo attacks are an example of latent compromised networks available for quick leverage when amplification networks are desired.
 
