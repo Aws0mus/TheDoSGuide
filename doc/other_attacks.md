@@ -112,6 +112,10 @@ One of the fields in an IP header is the “fragment offset” field, indicating
 
 https://security.radware.com/ddos-knowledge-center/ddospedia/teardrop-attack/
 
+HTTP get post grandes
+
+jijijaja
+
 Mail Bomb
 
 This type of DDoS attack either targets a mailbox, or its host server. As the name suggests, a mail bomb attack sends numerous - generally in millions and billions - mass emails to a single email address. This floods the mailbox, and destabilizes the host server. Generally, a single (or multiple) mail addresses are targeted and sent millions of emails from multiple source addresses. Another type of mailbox attack is list linking, where a single email address is signed up to receive multiple subscription emails, thereby flooding the victim's inbox. Another mail bomb attack known as Zip bombing, where the attacker sends a compressed file, which contains an enormous text file, which makes it hard to unzip, thereby flooding the computer system.

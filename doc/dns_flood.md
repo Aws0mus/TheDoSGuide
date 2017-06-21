@@ -41,4 +41,4 @@ jijijaja users can then continue to set their own custom thresholds, with differ
 Referencias
 -----------
 
-https://www.jijijaja.com/ddos/attack-glossary/dns-flood.html
+https://www.incapsula.com/ddos/attack-glossary/dns-flood.html

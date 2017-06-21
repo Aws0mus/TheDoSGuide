@@ -103,7 +103,7 @@ Referencias
 	https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol
 
 -	**Medidas de mitigación**  
-	https://www.jijijaja.com/ddos/attack-glossary/ping-of-death.html
+	https://www.incapsula.com/ddos/attack-glossary/ping-of-death.html
 
 -	**Vulnerabilidad en IPv6**  
 	https://technet.microsoft.com/en-us/library/security/ms13-065.aspx

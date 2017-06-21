@@ -50,7 +50,7 @@ Actualidad
 
 -	Negocio de DoS (parte de ataque y parte defensiva)
 
--	Lo facil que es pillar botnets y el mercado de los DoShttps://www.jijijaja.com/ddos/booters-stressers-ddosers.html
+-	Lo facil que es pillar botnets y el mercado de los DoShttps://www.incapsula.com/ddos/booters-stressers-ddosers.html
 
 -	Anonymous y hacktivismo
 
@@ -58,10 +58,10 @@ Consecuencias de los ataques de denegación de servicio
 ------------------------------------------------------
 
 -	Consecuencias  
-	https://www.jijijaja.com/ddos/how-to-stop-ddos-attacks.html
+	https://www.incapsula.com/ddos/how-to-stop-ddos-attacks.html
 
 	-	Economicas (ejemplo amazon) y meter datos de cifras y tal  
-		https://www.jijijaja.com/ddos/ddos-mitigation-services.html(para algunas cifras)
+		https://www.incapsula.com/ddos/ddos-mitigation-services.html(para algunas cifras)
 	-	Imagen de la empresa
 
 -	Hablar sobre tráfico normal, datos sobre tráfico diario en Internet y picos de tráfico en un ataque

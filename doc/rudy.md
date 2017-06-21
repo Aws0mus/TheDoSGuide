@@ -28,7 +28,7 @@ R.U.D.Y. is a popular low and slow attack tool that is designed to crash a web s
 
 The attack is executed via a DoS tool which browses the target website and detects embedded web forms. Once the forms have been identified, R.U.D.Y. sends a legitimate HTTP POST request with an abnormally long 'content-length' header field and then t starts injecting the form with information, one byte-sized packet at a time.
 
-![](https://www.jijijaja.com/images/illustrations/rudy-script.png)
+![](https://www.incapsula.com/images/illustrations/rudy-script.png)
 
 Excerpt from R.U.D.Y. v2.2 ScriptExcerpt from R.U.D.Y. v2.2 script
 

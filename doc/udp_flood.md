@@ -28,4 +28,4 @@ Using proprietary scrubbing software, specifically designed for inline traffic p
 
 The processing is performed on-edge, and with zero delay, allowing only clean traffic to reach the origin server.
 
-<https://www.jijijaja.com/ddos/attack-glossary/udp-flood.html>
+<https://www.incapsula.com/ddos/attack-glossary/udp-flood.html>

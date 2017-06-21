@@ -90,4 +90,4 @@ Alex Wun, Alex Cheung & Hans-Arno Jacobsen, A Taxonomy for Denial of Service Att
 
 Gerardo García Peña, DoS: Un enfoque práctico, Rooted CON 2012 https://www.slideshare.net/rootedcon/gerardo-garca-pea-enfoque-prctico-a-la-denegacin-de-servicio-rooted-con-2012
 
-https://www.us-cert.gov/sites/default/files/publications/DDoS%20Quick%20Guide.pdf
+US-CERT, DDoS Quick Guide, 2014 https://www.us-cert.gov/sites/default/files/publications/DDoS%20Quick%20Guide.pdf

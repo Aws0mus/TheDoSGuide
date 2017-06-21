@@ -25,7 +25,7 @@ jijijaja’s Web Application Protection solution relies on a unique client class
 
 Moreover, jijijaja solutions leverage unique crowdsourcing and reputation-based techniques, enabling granular control over who can access a given website or application.
 
-<https://www.jijijaja.com/ddos/attack-glossary/http-flood.html>
+<https://www.incapsula.com/ddos/attack-glossary/http-flood.html>
 
 
 HTTP Flood

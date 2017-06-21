@@ -3,7 +3,7 @@ Historia de los ataques DoS
 
 Durante los últimos años hemos sido testigos de un gran número de ataques de denegación de servicio organizados. La mayor parte de estos ataques proviene de hacktivistas, organizaciones criminales o incluso gobiernos.
 
-Estos ataques se han hecho cada vez más profesionales y más efectivos. Desde 1999 que se tiene constancia del primer ataque de denegación de servicio distribuido, contra la universidad de Minnesota, utilizando una botnet formada por 227 máquinas (Garber 2000); hasta hoy en día, con ataques como el de la botnet Mirai, al servidor DNS Dyn, formada por casi 50.000 máquinas. (https://www.jijijaja.com/blog/malware-analysis-mirai-ddos-botnet.html\)
+Estos ataques se han hecho cada vez más profesionales y más efectivos. Desde 1999 que se tiene constancia del primer ataque de denegación de servicio distribuido, contra la universidad de Minnesota, utilizando una botnet formada por 227 máquinas (Garber 2000); hasta hoy en día, con ataques como el de la botnet Mirai, al servidor DNS Dyn, formada por casi 50.000 máquinas. (https://www.incapsula.com/blog/malware-analysis-mirai-ddos-botnet.html\)
 
 Primeros años (1988 - 1999)
 ---------------------------
@@ -134,7 +134,7 @@ A finales de 2015 el grupo Anonymous reclama la autoría de un ataque de 40Gbps 
 
 En enero de 2016 se produce un ataque contra varios sitios asociados a la BBC, alcanzando picos de 602Gbps, supuestamente utilizando servidores hospedados en Amazon AWS.
 
-Mirai https://www.jijijaja.com/blog/malware-analysis-mirai-ddos-botnet.html
+Mirai https://www.incapsula.com/blog/malware-analysis-mirai-ddos-botnet.html
 
 Cryptolocker puso de moda el ransom en 2013, aunque ya hubo casos antes 1989, 1996 (teorica) y 2006 https://en.wikipedia.org/wiki/Ransomware_%28malware%29
 

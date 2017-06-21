@@ -93,7 +93,7 @@ Referencias
 -----------
 
 -	**Funcionamiento**  
-	https://www.jijijaja.com/ddos/attack-glossary/slowloris.html https://isc.sans.edu/forums/diary/Apache+HTTP+DoS+tool+released/6601/http://security.stackexchange.com/questions/86298/rsnakes-slow-loris-tool https://security.stackexchange.com/questions/86298/rsnakes-slow-loris-tool https://en.wikipedia.org/wiki/List_of_HTTP_header_fields https://web.archive.org/web/20150315054838/http://ha.ckers.org/slowloris/
+	https://www.incapsula.com/ddos/attack-glossary/slowloris.html https://isc.sans.edu/forums/diary/Apache+HTTP+DoS+tool+released/6601/http://security.stackexchange.com/questions/86298/rsnakes-slow-loris-tool https://security.stackexchange.com/questions/86298/rsnakes-slow-loris-tool https://en.wikipedia.org/wiki/List_of_HTTP_header_fields https://web.archive.org/web/20150315054838/http://ha.ckers.org/slowloris/
 
 -	**Medidas de mitigación**  
 	https://isc.sans.edu/forums/diary/Apache+HTTP+DoS+tool+mitigation/6613/http://www.techrepublic.com/blog/smb-technologist/secure-your-apache-server-from-ddos-slowloris-and-dns-injection-attacks/ https://en.wikipedia.org/wiki/Slowloris_(computer_security\)

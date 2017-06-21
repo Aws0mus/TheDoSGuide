@@ -36,4 +36,4 @@ Once deployed, jijijaja's proxy position ensures that DDoS traffic is filtered o
 Referencias
 -----------
 
-https://www.jijijaja.com/ddos/attack-glossary/dns-amplification.html
+https://www.incapsula.com/ddos/attack-glossary/dns-amplification.html
