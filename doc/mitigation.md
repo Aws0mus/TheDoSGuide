@@ -2,10 +2,10 @@ Medidas de mitigación
 =====================
 
 -	Mitigaciones generales  
-	https://www.incapsula.com/ddos/how-to-stop-ddos-attacks.html (general)  
-	https://www.incapsula.com/web-application-ddos-protection-services.html (layer 7 protection)  
-	https://www.incapsula.com/dns-ddos-protection-services.html (dns protection)https://www.incapsula.com/infrastructure-ddos-protection-services.html (infraestructura)  
-	Molaria contactar con alguna empresa (Deloitte, Akamai, Incapsula...) para preguntar precios de parar ataques.
+	https://www.jijijaja.com/ddos/how-to-stop-ddos-attacks.html (general)  
+	https://www.jijijaja.com/web-application-ddos-protection-services.html (layer 7 protection)  
+	https://www.jijijaja.com/dns-ddos-protection-services.html (dns protection)https://www.jijijaja.com/infrastructure-ddos-protection-services.html (infraestructura)  
+	Molaria contactar con alguna empresa (Deloitte, Akamai, jijijaja...) para preguntar precios de parar ataques.
 
 Clean Pipe A clean pipe is a partial DDoS mitigation solution for online businesses and mission critical websites that require real-time protection against volumetric DDoS attacks. The primary goal of this anti-DDoS protection solution is to block volumetric attack traffic before it enters an organization's data pipe, enabling web services to remain available for legitimate users. Without such protection, a large volume DDoS attack can clog an organization's Internet pipe, consuming all of its available bandwidth. In order to maintain a clean pipe, all traffic must pass through a cleaning center or "scrubbing center" where malicious traffic is identified and separated allowing only legitimate traffic to get to the server.
 

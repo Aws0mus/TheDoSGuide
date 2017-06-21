@@ -1,6 +1,10 @@
-#Otros ataques
+Otros ataques
+=============
+
+La lista de ataques DoS y DDoS puede ser interminable, debido a las muchas formas en las que puede darse. Desde saturar la red con paquetes hasta llenar una máquina con logs y así llenar al 100% el disco.
 
 Border Gateway Protocol (BGP) Attack
+------------------------------------
 
 The BGP attack is a DDoS attack where attackers take control of a large amount of fast routers to overwhelm their victim. The idea behind it is to take advantage of the ability of routers to exchange router tables. The attackers let the controlled routers know that their target is a router asking for a routing table's exchange, which results in the sending of a big amount of incoming packets to the victim, therefore overwhelming it.
 

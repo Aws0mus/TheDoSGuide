@@ -3,7 +3,7 @@ Historia de los ataques DoS
 
 Durante los últimos años hemos sido testigos de un gran número de ataques de denegación de servicio organizados. La mayor parte de estos ataques proviene de organizaciones hacktivistas, organizaciones criminales o incluso gobiernos.
 
-Estos ataques se han hecho cada vez más profesionales y más efectivos. Desde 1999 que se tiene constancia del primer ataque de denegación de servicio distribuido, contra la universidad de Minnesota, utilizando una botnet formada por 227 máquinas (Garber 2000); hasta hoy en día, con ataques como el de la botnet Mirai, al servidor DNS Dyn, formada por casi 50.000 máquinas. (https://www.incapsula.com/blog/malware-analysis-mirai-ddos-botnet.html\)
+Estos ataques se han hecho cada vez más profesionales y más efectivos. Desde 1999 que se tiene constancia del primer ataque de denegación de servicio distribuido, contra la universidad de Minnesota, utilizando una botnet formada por 227 máquinas (Garber 2000); hasta hoy en día, con ataques como el de la botnet Mirai, al servidor DNS Dyn, formada por casi 50.000 máquinas. (https://www.jijijaja.com/blog/malware-analysis-mirai-ddos-botnet.html\)
 
 Primeros años (1988 - 1999)
 ---------------------------
@@ -29,8 +29,8 @@ Los primeros escenarios de prueba fueron los canales IRC (Internet Relay Chat). 
 
 El atacante solo necesita enviar los comandos de ataque al canal IRC, al que están conectados todos los bots. En la imagen anterior, el C&C
 
-Investicación y pruebas (2000 - )
----------------------------------
+Investicación y pruebas (2000 - 2006)
+-------------------------------------
 
 En febrero del año 2000, durante 3 días, las principales sitios de Internet de la época sufrieron un ataque de denegación de servicio distribuido. Entre ellas se encontraban Yahoo, eBay, CNN Amazon o ZDNet. El autor del ataque fue un chico canadiense de 15 años apodado MafiaBoy. Se le consideró un *script kiddie*, ya que utilizó herramientas que no eran suyas y lanzó el ataque para obtener notoriedad. Utilizó un rootkit automático para infectar máquinas y varias herramientas de denegación de servicio basadas en inundar de tráfico la red realizó el ataque. (Genosko 2006)
 
@@ -52,12 +52,10 @@ En 2005 se produce el primer ataque DDoS realizado mediante reflexión de DNS.
 
 En 2006 se publican varias herramientas para realizar ataques mediante reflexión de DNS y NTP.
 
-Inicios del cibercrimen
------------------------
+Inicios del cibercrimen (2007 - 2012)
+-------------------------------------
 
-Los cibercriminales descubren la facilidad de realizar ataques DDoS y empiezan a monetizar de forma masiva los mismos mediante extorsión.
-
-Los grupos hacktivistas también empiezan a utilizar de forma habitual los ataques DDoS de manera organizada.
+Los cibercriminales descubren la facilidad de realizar ataques DDoS y empiezan a monetizar de forma masiva los mismos mediante la extorsión. Los grupos hacktivistas también empiezan a utilizar de forma habitual los ataques DDoS de manera organizada.
 
 Demostrado el gran impacto de esta amenaza, todo el mundo quiere subirse al carro. Por parte de los atacantes, se crean muchos grupos de aficionados y profesionales que quieren sacar partido de este ataque de moda. También aparecen multitud de vendedores de productos y servicios para intentar solventar el problema. Las técnicas empiezan a mejorarse, pero siguen siendo relativamente básicas. Se produce un aumento en el número y la complejidad de las herramientas disponibles.
 
@@ -75,11 +73,10 @@ En 2009 se publica el código original del ataque Slowloris, ataque que demostr�
 
 -	Stuxnet (No DoS pero para concienciar sobre ataque en sistemas críticos, utilizar la doc del curso de Incibe también) 2010 (gobierno?) https://security.radware.com/ddos-knowledge-center/ddospedia/stuxnet/
 
-Fase madurez y actualidad
--------------------------
+-	Operation blackout 2012 (anon) https://security.radware.com/ddos-knowledge-center/ddospedia/operation-blackout/
 
--	Operation blackout 2012 (anon) https://security.radware.com/ddos-knowledge-center/ddospedia/operation-blackout/  
--	Operation Defense 2012 (anon) https://security.radware.com/ddos-knowledge-center/ddospedia/operation-defense/  
+-	Operation Defense 2012 (anon) https://security.radware.com/ddos-knowledge-center/ddospedia/operation-defense/
+
 -	OPIsrael 2012 (anon) https://security.radware.com/ddos-knowledge-center/ddospedia/opisrael/
 
 -	Izz ad-Din al-Qassam Cyber Fighters 2012 (radicales) https://security.radware.com/ddos-knowledge-center/ddospedia/izz-ad-din-al-qassam-cyber-fighters/ https://security.radware.com/ddos-knowledge-center/ddospedia/operation-ababil/
@@ -88,9 +85,10 @@ Fase madurez y actualidad
 
 -	TheWikiBoat 2012 (anon) https://security.radware.com/ddos-knowledge-center/ddospedia/thewikiboat/ https://www.infosecurity-magazine.com/news/thewikiboats-opnewson-fires-today/
 
-Los cibercriminales tienen acceso a una gran variedad de métodos para realizar DDoS.
+Fase madurez y actualidad (2013 - 2017)
+---------------------------------------
 
-Se produce un proceso de selección en ambos bandos. Quedan menos grupos atacando, pero son más profesionales y el volumen de negocio prácticamente se mantiene. Quedan menos fabricantes y desparecen los “vendedores de humo”. Empiezan a utilizarse técnicas avanzadas pero las herramientas de código libre dejan de evolucionar o se hacen de pago.
+Durante estos años, los cibercriminales ya tienen acceso a una gran variedad de métodos para realizar ataques de denegación de servicio distribuidos. Algunos grupos se han ido especializando, quedan menos grupos, pero son más profesionales.
 
 A principios de 2013 se produce un ataque masivo contra Spamhaus que llega a picos de 85Gbps, generados mayoritariamente mediante amplificación de DNS.
 
@@ -106,7 +104,7 @@ A finales de 2015 el grupo Anonymous reclama la autoría de un ataque de 40Gbps 
 
 En enero de 2016 se produce un ataque contra varios sitios asociados a la BBC, alcanzando picos de 602Gbps, supuestamente utilizando servidores hospedados en Amazon AWS.
 
-Mirai https://www.incapsula.com/blog/malware-analysis-mirai-ddos-botnet.html
+Mirai https://www.jijijaja.com/blog/malware-analysis-mirai-ddos-botnet.html
 
 Cryptolocker puso de moda el ransom en 2013, aunque ya hubo casos antes 1989, 1996 (teorica) y 2006 https://en.wikipedia.org/wiki/Ransomware_%28malware%29
 

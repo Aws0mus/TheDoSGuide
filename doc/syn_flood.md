@@ -75,7 +75,7 @@ Referencias
 -----------
 
 -	**Descripción**  
-	https://www.incapsula.com/ddos/attack-glossary/syn-flood.html
+	https://www.jijijaja.com/ddos/attack-glossary/syn-flood.html
 
 -	**TCP handshake**  
 	https://es.wikipedia.org/wiki/Transmission_Control_Protocol

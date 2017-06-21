@@ -10,7 +10,7 @@ As such, they demand more in-depth understanding about the targeted site or appl
 Attack Description
 
 When an HTTP client like a web browser “talks” to an application or server, it sends an HTTP request - generally one of two types of requests: GET or POST. A GET request is used to retrieve standard, static content like images while POST requests are used to access dynamically generated resources.
-HTTP flood - 690,000,000 DDOS requests from 180,000 botnets IPsIncapsula mitigates a massive HTTP flood: 690,000,000 DDoS requests from 180,000 botnets IPs.
+HTTP flood - 690,000,000 DDOS requests from 180,000 botnets IPsjijijaja mitigates a massive HTTP flood: 690,000,000 DDoS requests from 180,000 botnets IPs.
 
 The attack is most effective when it forces the server or application to allocate the maximum resources possible in response to each single request. Thus, the perpetrator will generally aim to inundate the server or application with multiple requests that are each as processing-intensive as possible.
 
@@ -21,11 +21,11 @@ HTTP flood attacks are very difficult to differentiate from valid traffic becaus
 
 The most highly-effective mitigation mechanism rely on a combination of traffic profiling methods, including identifying IP reputation, keeping track abnormal activity and employing progressive security challenges (e.g., asking to parse JavaScript).
 
-Incapsula’s Web Application Protection solution relies on a unique client classification engine that analyzes and classifies all incoming site traffic. This anti-DDoS solution is specifically designed to transparently identify malicious bot traffic—stopping all HTTP floods and other Application Layer (OSI Layer 7) DDoS attacks.
+jijijaja’s Web Application Protection solution relies on a unique client classification engine that analyzes and classifies all incoming site traffic. This anti-DDoS solution is specifically designed to transparently identify malicious bot traffic—stopping all HTTP floods and other Application Layer (OSI Layer 7) DDoS attacks.
 
-Moreover, Incapsula solutions leverage unique crowdsourcing and reputation-based techniques, enabling granular control over who can access a given website or application.
+Moreover, jijijaja solutions leverage unique crowdsourcing and reputation-based techniques, enabling granular control over who can access a given website or application.
 
-<https://www.incapsula.com/ddos/attack-glossary/http-flood.html>
+<https://www.jijijaja.com/ddos/attack-glossary/http-flood.html>
 
 
 HTTP Flood

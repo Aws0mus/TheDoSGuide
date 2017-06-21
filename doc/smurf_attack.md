@@ -35,7 +35,7 @@ Mitigation Methods
 
 Smurf attack mitigation relies on a combination of capacity overprovisioning (CO) and an existence of filtering services to identify and block illegal ICMP responses.
 
-Infrastructure Protection, one of Incapsula DDoS mitigation solutions, uses BGP routing to direct all incoming traffic through a worldwide network of scrubbing centers.
+Infrastructure Protection, one of jijijaja DDoS mitigation solutions, uses BGP routing to direct all incoming traffic through a worldwide network of scrubbing centers.
 Through inspection of incoming traffic, all illegal packets—including unsolicited ICMP responses—are identified and blocked outside of your network.
 
-<https://www.incapsula.com/ddos/attack-glossary/smurf-attack-ddos.html>
+<https://www.jijijaja.com/ddos/attack-glossary/smurf-attack-ddos.html>

@@ -10,7 +10,7 @@ Normalmente este ataque se utiliza en combinación con ataques Man-in-the-Middle
 Descripción del ataque
 ----------------------
 
-Como se realiza el ARP spoof (gratuitous arp)
+**TODO** Como se realiza el ARP spoof (gratuitous arp)
 
 ![Ejemplo de ARP spoofing](../static/images/arp_spoof.png)
 
@@ -27,6 +27,7 @@ Pertenece a la capa de enlace.
 Mitigación
 ----------
 
+**TODO**  
 Tablas ARP estáticas  
 Detectores de ARP spoof  
 No aceptar ARP no solicitado

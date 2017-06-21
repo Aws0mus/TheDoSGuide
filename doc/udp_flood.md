@@ -14,7 +14,7 @@ However, these same properties also make UDP more vulnerable to abuse. In the ab
 Some UDP flood attacks can take the form of DNS amplification attacks, also called "alphabet soup attacks". UDP does not define specific packet formats, and thus attackers can create large packets (sometimes over 8KB), fill them with junk text or numbers (hence the “alphabet soup”), and send them out to the host under attack.
 
 When the attacked host receives the garbage-filled UDP packets to a given port, it checks for the application listening at that port, which is associated with the packet’s contents. When it sees that no associated application is listening, it replies with an ICMP Destination Unreachable packet.
-UDP/DNS flood - 25 million packets per secondIncapsula mitigates a massive UDP (DNS) flood, peaking at over 25 million packets per second
+UDP/DNS flood - 25 million packets per secondjijijaja mitigates a massive UDP (DNS) flood, peaking at over 25 million packets per second
 
 It should be noted that both amplified and non-amplified UDP floods could originate from botnet cluster of various sizes. The use of multiple machines will classify this attack as Distributed Denial of Service (DDoS) threat. With such attack the offender’s goal is to overbear firewalls and other components of the more resilient network infrastructures.
 Methods of Mitigation
@@ -22,10 +22,10 @@ At the most basic level, most operating systems attempt to mitigate UDP flood at
 
 Traditionally, UDP mitigation method also relied on firewalls that filtered out or block malicious UDP packets. Yet, such methods are now becoming irrelevant, as modern high-volume attacks can simply overbear firewalls, which are not designed with overprovisioning in mind.
 
-Incapsula DDoS protection leverages Anycast technology to balance the attack load across its global network of high-powered scrubbing servers, where it undergoes a process of Deep Packet Inspection (DIP).
+jijijaja DDoS protection leverages Anycast technology to balance the attack load across its global network of high-powered scrubbing servers, where it undergoes a process of Deep Packet Inspection (DIP).
 
-Using proprietary scrubbing software, specifically designed for inline traffic processing, Incapsula identifying and filters out malicious DDoS packets, based on combination of factors like IP reputation, abnormal attributes and suspicious behavior.
+Using proprietary scrubbing software, specifically designed for inline traffic processing, jijijaja identifying and filters out malicious DDoS packets, based on combination of factors like IP reputation, abnormal attributes and suspicious behavior.
 
 The processing is performed on-edge, and with zero delay, allowing only clean traffic to reach the origin server.
 
-<https://www.incapsula.com/ddos/attack-glossary/udp-flood.html>
+<https://www.jijijaja.com/ddos/attack-glossary/udp-flood.html>

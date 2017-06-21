@@ -1,5 +1,5 @@
-Ping de la muerte
-=================
+Ping Of Death
+=============
 
 El ping de la muerte (Ping of Death o PoD) es un ataque de denegación de servicio en el que el atacante envía un único paquete de ping malformado con un tamaño inmensamente grande.
 
@@ -103,7 +103,7 @@ Referencias
 	https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol
 
 -	**Medidas de mitigación**  
-	https://www.incapsula.com/ddos/attack-glossary/ping-of-death.html
+	https://www.jijijaja.com/ddos/attack-glossary/ping-of-death.html
 
 -	**Vulnerabilidad en IPv6**  
 	https://technet.microsoft.com/en-us/library/security/ms13-065.aspx

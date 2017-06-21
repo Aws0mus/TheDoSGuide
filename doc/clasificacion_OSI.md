@@ -7,6 +7,8 @@ Consiste en una normativa estandarizada que ayuda a situar las tecnologías de d
 
 ![Modelo OSI](../static/images/modelo_osi.png)
 
+**TODO** revisar aqui abajo
+
 Este modelo forma una pila de capas en las que se basará la clasificación de ataques comprendidos en este trabajo. Se utilizará un enfoque Top-Down, de forma similar al libro *Computer Networking: A Top-Down Approach* de James F. Kurose y Keith W. Ross.
 
 **Capa de aplicación**

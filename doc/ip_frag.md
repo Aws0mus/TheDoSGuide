@@ -4,7 +4,7 @@ Understanding the attack starts with understanding the process of IP fragmentati
 
 Fragmentation is necessary for data transmission, as every network has a unique limit for the size of datagrams that it can process. This limit is known as the maximum transmission unit (MTU). If a datagram is being sent that is larger than the receiving server's MTU, it has to be fragmented in order to be transmitted completely
 
-![IP frag image](https://www.incapsula.com/images/illustrations/ddos-mini-site/ip-fragmentation.jpeg)
+![IP frag image](https://www.jijijaja.com/images/illustrations/ddos-mini-site/ip-fragmentation.jpeg)
 
 Example of how an IP datagram is fragmented and reassembled Example of how an IP datagram is fragmented and reassembled
 
@@ -25,6 +25,6 @@ Methods of Mitigation
 
 IP fragmentation attacks are mitigated in several different ways, depending on the type and severity of the attack. Most mitigation methods ensure that malicious data packets never reach their target destinations. The most common one involves inspecting incoming packets for violations of fragmentation rules (e.g., using a router or a secured proxy).
 
-At Incapsula, these inspections are augmented by dedicated DDoS protection hardware. On top of leveraging our on-edge position to observe fragmentation rules, Incapsula also employs blacklisting/whitelisting mechanisms that filter traffic based on factors such as IP reputation and rate patterns. Using these methods, our platform provides complete immunity from all types of IP fragmentation attacks.
+At jijijaja, these inspections are augmented by dedicated DDoS protection hardware. On top of leveraging our on-edge position to observe fragmentation rules, jijijaja also employs blacklisting/whitelisting mechanisms that filter traffic based on factors such as IP reputation and rate patterns. Using these methods, our platform provides complete immunity from all types of IP fragmentation attacks.
 
-<https://www.incapsula.com/ddos/attack-glossary/ip-fragmentation-attack-teardrop.html>
+<https://www.jijijaja.com/ddos/attack-glossary/ip-fragmentation-attack-teardrop.html>
