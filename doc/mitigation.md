@@ -1,6 +1,8 @@
 Medidas de mitigación
 =====================
 
+empresas como CloudFlare https://en.wikipedia.org/wiki/Anycast
+
 -	Mitigaciones generales  
 	https://www.incapsula.com/ddos/how-to-stop-ddos-attacks.html (general)  
 	https://www.incapsula.com/web-application-ddos-protection-services.html (layer 7 protection)  

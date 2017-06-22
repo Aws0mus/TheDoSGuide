@@ -1,5 +1,5 @@
 Envenenamiento ARP
-------------------
+==================
 
 El envenenamiento ARP o ARP spoofing es un tipo de ataque realizado sobre una red de área local (LAN). El ataque consiste en enviar paquetes ARP maliciosos a la puerta de enlace o a la máquina víctima para envenenar las tablas ARP, encargadas de traducir una dirección MAC a una dirección IP. Si no se traducen de forma correcta estas direcciones ni el router ni la máquina serán capaces de mandar correctamente paquetes a su destino, dejando a la víctima sin servicio de red.
 

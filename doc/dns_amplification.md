@@ -8,6 +8,12 @@ Es un tipo de ataque indirecto, en el que el atacante envía peticiones manipula
 Descripción del Ataque
 ----------------------
 
+son gracias a servers gratuitos
+
+https://arstechnica.com/security/2013/03/how-whitehats-stopped-the-ddos-attack-that-knocked-spamhaus-offline/
+
+https://arstechnica.com/information-technology/2013/03/how-spamhaus-attackers-turned-dns-into-a-weapon-of-mass-destruction/
+
 DNS amplification, like other amplification attacks, is a type of reflection attack. In this case, the reflection is achieved by eliciting a response from a DNS resolvers to a spoofed IP address.
 
 During a DNS amplification attack, the perpetrator sends out a DNS query with a forged IP address (the victim’s) to an open DNS resolver, prompting it to reply back to that address with a DNS response. With numerous fake queries being sent out, and with several DNS resolvers replying back simultaneously, the victim’s network can easily be overwhelmed by the sheer number of DNS responses. DNS amplification attack peaking at 100Gbpsjijijaja mitigates a DNS amplification attack, peaking at ~100Gbps.

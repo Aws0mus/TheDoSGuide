@@ -50,7 +50,7 @@ Los autores documentan que estos ataques generaros picos de tráfico de hasta 10
 
 *Funcionamiento de la amplificación de DNS*
 
-**TODO** loic aparece
+Se pueden tener indicios que datan la creación de la herramienta LOIC en el año 2006, ya que ciertas cadenas de texto de la herramienta corresponden con memes de ese mismo año. LOIC o Low Orbit Ion Cannon, fue una herramienta de denegación de servicio muy utilizada por hacktivistas. Ponía en manos de cualquier persona la capacidad de realizar un ataque de denegación de servicio, sólo era necesario elegir el objetivo y establecer la velocidad de ataque. La herramienta permite un modo distribuido, conectando a un canal IRC el cliente para que reciba los comandos dende ahí.
 
 En esta fase las técnicas siguen siendo básicas, pero se comienza a investigar y las herramientas empiezan a ser más avanzadas. Tanto que incluso un chico de 15 años pudo realizar un ataque a gran escala sin conocimientos de avanzados de informática. Sobretodo quedo en evidencia que muchas empresas y organizaciones no estaban preparadas ante el nuevo tipo de ataques de denegación de servicio.
 
@@ -116,15 +116,21 @@ Fase madurez y actualidad (2013 - 2017)
 
 Durante estos años, los cibercriminales ya tienen acceso a una gran variedad de métodos para realizar ataques de denegación de servicio distribuidos. Algunos grupos se han ido especializando, quedan menos grupos, pero son más profesionales.
 
+A principios de 2013 se produce un ataque masivo contra Spamhaus, una organización internacional fundada en 1998 dedicada a localizar correos electrónicos generadores de spam. El ataque utilizó técnicas de amplificación DNS, que ya fueron testeados en 2005 y 2006. El ataque alcanzó picos de 75Gbps, generados principalmente por estos paquetes DNS amplificados (Goodin 2013) (Gallagher 2013).
+
+Gracias a los servicios en la nube de empresas como CloudFlare, Spamhaus pudo mitigar el ataque de denegación de servicio. CloudFlare ocultó la red de Spamhaus detrá de sus servidores, que recibieron la mayor carga de tráfico. Para ello se redirigió todo el tráfico de Spamhaus a los puntos más cercanos con presencia de CloudFlare, aumentando la superficie del ataque y disminuyendo su efecto. Una vez allí, CloudFlare aplicó diversos filtros a las respuestas DNS para ver si formaban o no parte del ataque.
+
 **TODO**
-
-A principios de 2013 se produce un ataque masivo contra Spamhaus que llega a picos de 85Gbps, generados mayoritariamente mediante amplificación de DNS.
-
-https://arstechnica.com/information-technology/2013/03/how-spamhaus-attackers-turned-dns-into-a-weapon-of-mass-destruction/
 
 También en 2013 se produce la caída de varios sitios web públicos de la OTAN, debido a un ataque DDoS realizado de forma organizada como resultado de las tensiones sobre Crimea. También atribuido a organizaciones criminales afines al gobierno ruso.
 
--	Lizard Squad 2014 () organización criminal ataques en 2014 http://blog.elhacker.net/2015/02/estudio-de-akamai-sobre-un-ataque-ddos-del-grupo-lizard-squad.html https://en.wikipedia.org/wiki/Lizard_Squad
+En 2014 aparece Lizard Squad, un grupo cibercriminal conocido principalmente por sus servicios de denegación distribuidos, enfocados sobretodo a videojuegos. El primer ataque que se les atribuye fue en agosto al juego League of Legends. También en el mundo del videojuego realizaron otros a Playstation Network o Xbox Live (Cook 2014). Uno de los ataques más controvertidos fue en Diciembre de ese mismo año, durante un día dejaron sin Internet a Corea del Norte como protesta por la censura del país a la películo *The Interview* (Holden 2014). El ataque fue dirigido contra los dos principales servidores DNS del país, que daban soporte a todas las webs accesibles desde el país.
+
+![Ataque a Corea del Norte por Lizard Squad](../static/images/north_korea.png)
+
+*Ataque a Corea del Norte por Lizard Squad*
+
+**TODO**
 
 En Febrero de 2014 Cloudflare sufre un ataque que llega a picos de 325Gbps, realizado mediante reflexión de NTP.
 
@@ -169,3 +175,12 @@ Paul Mueller and Babak Yadegari, The Stuxnet Worm, 2012 https://www2.cs.arizona.
 https://security.radware.com/ddos-knowledge-center/ddospedia/stuxnet/
 
 https://en.wikipedia.org/wiki/Stuxnet
+
+Dan Holden, North Korea Goes Offline, 2014  
+https://www.arbornetworks.com/blog/asert/north-korea-goes-offline/
+
+James Cook, How A Hacker Gang Literally Saved Christmas For Video Game Players Everywhere, 2014 http://uk.businessinsider.com/lizard-squad-hack-playstation-and-xbox-2014-12?r=US
+
+Dan Goodin, How whitehats stopped the DDoS attack that knocked Spamhaus offline, 2013 https://arstechnica.com/security/2013/03/how-whitehats-stopped-the-ddos-attack-that-knocked-spamhaus-offline/
+
+Sean Gallagher, How Spamhaus’ attackers turned DNS into a weapon of mass destruction, 2013 https://arstechnica.com/information-technology/2013/03/how-spamhaus-attackers-turned-dns-into-a-weapon-of-mass-destruction/

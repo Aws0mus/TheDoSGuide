@@ -1,5 +1,5 @@
-Definiciones al inicio del TFG
-==============================
+Glosario
+========
 
 -	DoS
 -	IDS
